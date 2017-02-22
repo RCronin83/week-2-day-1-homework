@@ -9,31 +9,39 @@ body {
     /* DO NOT CHANGE THESE */
     font-family: Verdana, Arial, sans-serif;
 }
+.hero {
+      display:flex;
+      justify-content: space-between;
+      height: 10em;
 
+      /* DO NOT CHANGE THESE */
+      background-color: #444444;
+}
+.hero h1 {
+    margin: 2em 4em;
+  
+    /* DO NOT CHANGE THESE */
+    color: #ffffff;
+}
+.hero nav {
+    align-self: flex-end;
+}
 .hero ul{
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 1em;
 
 }
 
 .hero a {
-  text-decoration:none;
-  color: rgb(191, 191, 191);
-  padding: 0 0.7em;
+    text-decoration:none;
+    color: rgb(191, 191, 191);
+    margin: 0 0.7em;
 }
 
-.hero {
 
 
-
-    /* DO NOT CHANGE THESE */
-    background-color: #444444;
-}
-.hero h1 {
-    /* DO NOT CHANGE THESE */
-    color: #ffffff;
-}
 
 .container {
     display: flex;
@@ -45,14 +53,13 @@ body {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    width: 70em;
-    justify-content: center;
+    justify-content: space-around;
     /* DO NOT CHANGE THESE */
     color: #444444;
 }
 .posts article {
     display: flex;
-    margin: 1em;
+    margin: 1em 0;
     width: 45%;
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
@@ -66,7 +73,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    flex: 0 0 20%;
+    flex: 0 0 25%;
 
     /* DO NOT CHANGE THESE */
     background-color: #aaaaaa;
@@ -74,10 +81,8 @@ body {
 }
 
 .sidebar section {
-    display: flex;
     width: 90%;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 1em 0;
 
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
@@ -87,7 +92,7 @@ body {
 
 footer, a{
   display: flex;
-  flex-direction: row;
+  /*flex-direction: row;*/
   justify-content: space-between;
     /* DO NOT CHANGE THESE */
     background-color: #444444;
