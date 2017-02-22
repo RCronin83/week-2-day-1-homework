@@ -66,9 +66,7 @@ body {
     height: 10em;
 }
 
-footer, a{
-
-    /* DO NOT CHANGE THESE */
+footer, a {
     background-color: #444444;
     color: #eeeeee;
 }
@@ -78,7 +76,7 @@ footer ul {
 }
 
 footer p {
-  padding: 1em;
+    padding: 1em;
 }
 
 
@@ -135,9 +133,9 @@ footer p {
   }
 
   footer {
-      display:flex;
-      flex-direction: row;
-      justify-content: space-between;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   footer ul {
@@ -151,102 +149,21 @@ footer p {
 
 @media screen and (min-width: 70em){
 
-  /* resetting some browser-default styles */
-  /* DO NOT CHANGE THESE */
-  html,body,header,main,footer,section,aside,h1,h2,h3,h4,p{margin:0;padding:0;}
-  ul{margin:0;}
-
-
-  body {
-      /* DO NOT CHANGE THESE */
-      font-family: Verdana, Arial, sans-serif;
-  }
-  .hero {
-        display:flex;
-        justify-content: space-between;
-        height: 10em;
-
-        /* DO NOT CHANGE THESE */
-        background-color: #444444;
-  }
-  .hero h1 {
-      margin: 2em 4em;
-
-      /* DO NOT CHANGE THESE */
-      color: #ffffff;
-  }
-  .hero nav {
-      align-self: flex-end;
-  }
-  .hero ul{
-      display: flex;
-      justify-content: flex-end;
-      list-style-type: none;
-      margin: 1em;
-
-  }
-
-  .hero a {
-      text-decoration:none;
-      color: rgb(191, 191, 191);
-      margin: 0 0.7em;
-  }
-
-
-
-
   .container {
       display: flex;
-      width: 88%;
-      margin: 0 auto;
   }
-
-  .posts {
-      flex: 1;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      /* DO NOT CHANGE THESE */
-      color: #444444;
-  }
-  .posts article {
-      display: flex;
-      margin: 1em 0;
-      width: 45%;
-      /* DO NOT CHANGE THESE */
-      background-color: #dddddd;
-      border: 1px solid #444444;
-      height: 20em; /* this is just so we can see the articles since they have no content */
-  }
-
 
   .sidebar {
-      display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: flex-start;
       flex: 0 0 25%;
-
-      /* DO NOT CHANGE THESE */
-      background-color: #aaaaaa;
-      color: #444444;
   }
 
   .sidebar section {
       width: 90%;
       margin: 1em 0;
-
-      /* DO NOT CHANGE THESE */
-      background-color: #dddddd;
-      border: 1px solid #444444;
-      height: 10em; /* this is just so we can see the articles since they have no content */
+      height: 10em;
   }
 
-  footer, a{
-      display: flex;
-      justify-content: space-between;
-      /* DO NOT CHANGE THESE */
-      background-color: #444444;
-      color: #eeeeee;
-  }
+
 }
