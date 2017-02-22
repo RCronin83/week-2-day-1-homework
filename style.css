@@ -1,0 +1,108 @@
+
+/* resetting some browser-default styles */
+/* DO NOT CHANGE THESE */
+html,body,header,main,footer,section,aside,h1,h2,h3,h4,p{margin:0;padding:0;}
+ul{margin:0;}
+
+
+body {
+
+    /* DO NOT CHANGE THESE */
+    font-family: Verdana, Arial, sans-serif;
+}
+.hero {
+      border-radius: 1em 1em 0 0;
+
+
+
+      /* DO NOT CHANGE THESE */
+      background-color: #444444;
+}
+.hero h1 {
+
+
+    /* DO NOT CHANGE THESE */
+    color: #ffffff;
+}
+.hero nav {
+    
+}
+.hero ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding-left: 0;
+
+
+}
+
+.hero a {
+    text-decoration:none;
+    color: rgb(191, 191, 191);
+    padding-right: 0.5em;
+
+}
+
+
+
+
+.container {
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.posts {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* DO NOT CHANGE THESE */
+    color: #444444;
+}
+.posts article {
+    display: flex;
+    margin: 1em 0;
+    width: 45%;
+    /* DO NOT CHANGE THESE */
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 20em; /* this is just so we can see the articles since they have no content */
+}
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 0 0 25%;
+
+    /* DO NOT CHANGE THESE */
+    background-color: #aaaaaa;
+    color: #444444;
+}
+
+.sidebar section {
+    width: 90%;
+    margin: 1em 0;
+
+    /* DO NOT CHANGE THESE */
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 10em; /* this is just so we can see the articles since they have no content */
+}
+
+footer, a{
+    display: flex;
+    justify-content: space-between;
+    /* DO NOT CHANGE THESE */
+    background-color: #444444;
+    color: #eeeeee;
+}
+
+
+@media screen and (min-width: 35em){
+
+
+}
