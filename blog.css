@@ -37,7 +37,7 @@ body {
 
 .container {
     display: flex;
-    width: 80%;
+    width: 88%;
     margin: 0 auto;
 }
 
@@ -45,6 +45,7 @@ body {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
+    width: 70em;
     justify-content: center;
     /* DO NOT CHANGE THESE */
     color: #444444;
@@ -52,9 +53,7 @@ body {
 .posts article {
     display: flex;
     margin: 1em;
-    width: 32%;
-
-
+    width: 45%;
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
     border: 1px solid #444444;
