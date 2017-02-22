@@ -10,9 +10,22 @@ body {
     font-family: Verdana, Arial, sans-serif;
 }
 
+.hero ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
 
+}
+
+.hero a {
+  text-decoration:none;
+  color: rgb(191, 191, 191);
+  padding: 0 0.7em;
+}
 
 .hero {
+
+
     /* DO NOT CHANGE THESE */
     background-color: #444444;
 }
@@ -23,7 +36,6 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
     width: 80%;
     margin: 0 auto;
 }
@@ -32,15 +44,16 @@ body {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     /* DO NOT CHANGE THESE */
     color: #444444;
 }
 .posts article {
     display: flex;
-    margin: 1em 0;
-    width: 45%;
-    box-sizing: border-box;
+    margin: 1em;
+    width: 32%;
+
+
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
     border: 1px solid #444444;
@@ -49,11 +62,12 @@ body {
 
 
 .sidebar {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    flex: 0 0 25%;
+    flex: 0 0 20%;
+
     /* DO NOT CHANGE THESE */
     background-color: #aaaaaa;
     color: #444444;
@@ -71,9 +85,10 @@ body {
     height: 10em; /* this is just so we can see the articles since they have no content */
 }
 
-
-footer {
-
+footer, a{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
     /* DO NOT CHANGE THESE */
     background-color: #444444;
     color: #eeeeee;
