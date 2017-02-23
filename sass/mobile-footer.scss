@@ -1,0 +1,14 @@
+
+footer {
+    background-color: $headerFooterBackgroundColor;
+    color: $headerFooterFontColor;
+  a {
+    color: $headerFooterFontColor;
+  }
+  ul {
+    padding: 1em 0 1em 5em;
+  }
+  p {
+      padding: 1em;
+  }
+}

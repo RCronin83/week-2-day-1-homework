@@ -1,0 +1,29 @@
+
+.container {
+    margin: 0 auto;
+}
+.posts {
+    margin: 0.5em;
+    color: $articleFontColor;
+  article {
+    margin: 1em 0;
+    background-color: $articleBackgroundColor;
+    border: $articleBorder;
+    height: 20em;
+  }
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $sideBarBackgroundColor;
+    color: $sideBarFontColor;
+  section {
+    width: 90%;
+    margin: 1em 0;
+    background-color: $sideBarSectionBackgroundColor;
+    border: $sideBarSectionBorder;
+    height: 10em;
+  }
+}

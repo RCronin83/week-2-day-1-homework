@@ -1,0 +1,19 @@
+
+@media screen and (min-width: 70em){
+
+  .container {
+      display: flex;
+  }
+
+  .sidebar {
+      flex-direction: column;
+      justify-content: flex-start;
+      flex: 0 0 25%;
+  }
+
+  .sidebar section {
+      width: 90%;
+      margin: 1em 0;
+      height: 10em;
+  }
+}
