@@ -7,7 +7,7 @@
   article {
       display: flex;
       width: 45%;
-      height: 2 * $primaryWindowHeight;
+      height: $primaryArticleHeight;
   }
 }
 .sidebar {
@@ -15,7 +15,7 @@
     justify-content:space-around;
   section {
       width: 25%;
-      height: $primaryWindowHeight;
+      height: $primarySectionHeight;
   }
 
 }
