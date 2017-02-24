@@ -1,10 +1,14 @@
 $headerFooterBackgroundColor: #444444;
 $headerFooterFontColor: #ffffff;
-$articleFontColor: #444444;
-$articleBackgroundColor: #dddddd;
-$articleBorder: 1px solid $articleFontColor;
-$sideBarBackgroundColor: #aaaaaa;
-$sideBarFontColor: #444444;
-$sideBarSectionBorder: 1px solid $sideBarFontColor;
-$sideBarSectionBackgroundColor: #dddddd;
-$boxHeight: 10em;
+
+$fontColor: #444444;
+$windowBorder: 1px solid $fontColor;
+
+$windowBackgroundColor: #dddddd;
+$sidebarBackgroundColor: #aaaaaa;
+
+$mobileArticleHeight: 12em;
+$mobileSectionHeight: 6em;
+
+$primaryArticleHeight: 18em;
+$primarySectionHeight: 9em;

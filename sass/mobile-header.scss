@@ -7,14 +7,16 @@ body {
     color: $headerFooterFontColor;
 
   ul{
-    display: flex;
-    list-style: none;
-    padding-left: 0;
+      display: flex;
+      list-style: none;
+      padding-left: 0;
+  }
+  li {
+      padding-right: 0.5em;
   }
 
   a {
-    text-decoration:none;
-    color: $headerFooterFontColor;
-    padding-right: 0.5em;
+      text-decoration:none;
+      color: $headerFooterFontColor;
   }
 }

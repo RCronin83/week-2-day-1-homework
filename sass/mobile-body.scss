@@ -1,16 +1,14 @@
-
 .container {
     margin: 0 auto;
 }
 .posts {
-    margin: 0.5em;
-    color: $articleFontColor;
+    color: $fontColor;
   article {
-    margin: 1em 0;
-    background-color: $articleBackgroundColor;
-    border: $articleBorder;
-    // height: 20em;
-    @include containerHeight($boxHeight * 2);
+      margin: 1em;
+      background-color: $windowBackgroundColor;
+      border: $windowBorder;
+      height: $mobileArticleHeight;
+
   }
 }
 
@@ -18,14 +16,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $sideBarBackgroundColor;
-    color: $sideBarFontColor;
+    background-color: $sidebarBackgroundColor;
+    color: $fontColor;
   section {
-    width: 90%;
-    margin: 1em 0;
-    background-color: $sideBarSectionBackgroundColor;
-    border: $sideBarSectionBorder;
-    // height: 10em;
-    @include containerHeight($boxHeight);
+      width: 90%;
+      margin: 1em 0;
+      height: $mobileSectionHeight;
+      background-color: $windowBackgroundColor;
+      border: $windowBorder;
   }
 }

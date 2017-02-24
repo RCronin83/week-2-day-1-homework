@@ -1,17 +1,13 @@
 @media screen and (min-width: 35em) {
 
-.container {
-    width: 88%;
-}
-
 .posts {
-    flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   article {
       display: flex;
       width: 45%;
+      height: $primaryArticleHeight;
   }
 }
 .sidebar {
@@ -19,7 +15,8 @@
     justify-content:space-around;
   section {
       width: 25%;
-      height: 6em;
+      height: $primarySectionHeight;
   }
+
 }
 }
